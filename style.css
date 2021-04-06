@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    font-family: system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #141220;
+}
+
+#controls select {
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;
+    background: url(./images/ico-seta-appearance.gif) no-repeat #eeeeee;
+    background-position: 218px center;
+    width: 250px;
+    height: 30px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.button-start {
+    -webkit-appearance: button;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-transform: none;
+    overflow: visible;
+    font: inherit;
+    margin: 0;
+}
+
+.displayNone {
+    display: none;
+}
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vh;
+    height: 80vh;
+    background-color: #2d2f3d;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 1px 1px 1px black;
+    border: 1px solid black;
+}
+
+#grid div {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #818295;
+    font-size: xxx-large;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+}
+
+.w-2 {
+    width: 49%;
+    height: 49%;
+}
+
+.w-3 {
+    width: 32.33%;
+    height: 32.33%;
+}
+
+.w-4 {
+    width: 24%;
+    height: 24%;
+}
+
+.w-5 {
+    width: 19%;
+    height: 19%;
+}
+
+.w-6 {
+    width: 15.66%;
+    height: 15.66%;
+}
+
+.w-7 {
+    width: 13.28%;
+    height: 13.28%;
+}
+
+.w-8 {
+    width: 11.5%;
+    height: 11.5%;
+}
+
+.w-9 {
+    width: 10.11%;
+    height: 10.11%;
+}
+
+.w-10 {
+    width: 9.5%;
+    height: 9.5%;
+}
+
+.background-0 {
+    background-color: #43465a!important;
+}
+.background-2 {
+    background-color: #818295!important;
+}
+.background-4 {
+    background-color: #817b9f!important;
+}
+.background-8 {
+    background-color: #f2b179!important;
+}
+.background-16 {
+    background-color: #f59563!important;
+}
+.background-32 {
+    background-color: #f67c5f!important;
+}
+.background-64 {
+    background-color: #f65e3b!important;
+}
+.background-128 {
+    background-color: #edcf72!important;
+}
+.background-256 {
+    background-color: #edcc61!important;
+}
+.background-512 {
+    background-color: #edc850!important;
+}
+.background-1024 {
+    background-color: #edc53f!important;
+}
+.background-2048 {
+    background-color: #edc22e!important;
+}
+.background-4096 {
+    background-color: #e5bad7!important;
+}
+.background-8192 {
+    background-color: #d78ebd!important;
+}
+.background-16384 {
+    background-color: #cc63a3!important;
+}
+.background-32768 {
+    background-color: #65bd77!important;
+}
+.background-65536 {
+    background-color: #42a256!important;
+}
+.background-131072 {
+    background-color: #423a82!important;
+}

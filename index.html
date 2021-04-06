@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+    <head>
+        <title>Game 2048</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./app.js" charset="utf-8"></script>
+    </head>
+    <body>
+
+        <div class="container">
+            <div id="controls">
+                <h2 class="title-controls">SELECT SIZE AND MAX POITING TO WIN</h2>
+                <select name="selectSize" id="selectSize">
+                    <option value="2">2x2</option>
+                    <option value="3">3x3</option>
+                    <option value="4" selected>4x4</option>
+                    <option value="5">5x5</option>
+                    <option value="6">6x6</option>
+                    <option value="7">7x7</option>
+                    <option value="8">8x8</option>
+                    <option value="9">9x9</option>
+                    <option value="10">10x10</option>
+                </select>
+                <select name="selectPoitingWin" id="selectPoitingWin">
+                    <option value="1024">1024</option>
+                    <option value="2048" selected>2048</option>
+                    <option value="4096">4096</option>
+                    <option value="8192">8192</option>
+                    <option value="16384">16384</option>
+                    <option value="32768">32768</option>
+                    <option value="65536">65536</option>
+                    <option value="131072">131072</option>
+                </select>
+                <button class="button-start" onclick="selectDifficult()">START</button>
+            </div>
+
+            <div id="board" class="displayNone">
+                <div class="difficult-container">
+                    <div class="size-title">SIZE <span id="size">4x4</span></div>
+                    <div class="poitingWin-title">POITING TO WIN <span id="poitingWin">2048</span></div>
+                </div>
+
+                <div class="score-container">
+                    <div class="score-title">SCORE <span id="score">0</span></div>
+                </div>
+        
+                <div id="result"></div>
+        
+                <div id="grid"></div>
+            </div>
+        </div>
+
+    </body>
+</html>
